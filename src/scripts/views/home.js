@@ -55,7 +55,7 @@ SPA.defineView('home', {
       that.vm = that.getVM();
 
       $.ajax({
-        url: '/api/getLivelist.php',
+        url: '/course-footballSNS/mock/livelist.json',
         type: 'get',
         data:{
           rtype: 'origin'
@@ -121,7 +121,7 @@ SPA.defineView('home', {
               // ajax下拉刷新数据
 
               $.ajax({
-                url: '/api/getLivelist.php',
+                url: '/course-footballSNS/mock/livelist-refresh.json',
                 data: {
                   rtype: 'refresh'
                 },
@@ -150,7 +150,7 @@ SPA.defineView('home', {
               // ajax上拉加载数据
 
               $.ajax({
-                url: '/api/getLivelist.php',
+                url: '/course-footballSNS/mock/livelist-more.json',
                 data: {
                   rtype: 'more'
                 },
