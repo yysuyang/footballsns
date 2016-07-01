@@ -1,0 +1,29 @@
+@import "../../lib/widget/yo-dialog";
+
+@include yo-dialog(
+  $name: a,
+  $height: 2rem
+){
+  footer button:first-child {
+    color: red !important;
+  }
+  footer button:last-child {
+    color: green !important;
+  }
+};
+
+.m-lifenav {
+  width: 100%;
+  overflow: hidden;
+  ul {
+    @include flexbox();
+    width: 4rem;
+    @include border(0px 0px 0px 1px);
+    li {
+      @include border(1px 1px 1px 0);
+      @include flex(1);
+      text-align: center;
+      line-height: .35rem;
+    }
+  }
+}

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>footballSNS</title>
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <link rel="stylesheet" href="/course-footballSNS/prd/styles/usage/app.css">
+  <script>
+      document.ontouchmove = function(e) {
+          if (e.target.tagName.toUpperCase() !== 'IFRAME') {
+              e.preventDefault();
+          }
+      };
+  </script>
+</head>
+<body>
+  <script src="/course-footballSNS/prd/scripts/app.js"></script>
+</body>
+</html>

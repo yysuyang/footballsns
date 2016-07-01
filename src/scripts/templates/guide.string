@@ -1,0 +1,16 @@
+<div class="swiper-container" id="guide-swiper">
+  <div class="swiper-wrapper">
+    <div class="swiper-slide">
+      <img src="/course-footballSNS/images/slide1.png">
+    </div>
+    <div class="swiper-slide">
+      <img src="/course-footballSNS/images/slide2.png">
+    </div>
+    <div class="swiper-slide">
+      <img src="/course-footballSNS/images/slide3.png">
+    </div>
+    <div class="swiper-slide" action-type="goto.index">
+      <img src="/course-footballSNS/images/slide4.png">
+    </div>
+  </div>
+</div>

@@ -1,0 +1,16 @@
+<div class="m-detail">
+  <header>
+    <ul>
+      <li action-type="back" class="yo-ico">&#xe679;</li>
+      <li ms-text="title">加载中...</li>
+      <li class="yo-ico">&#xe684;</li>
+    </ul>
+  </header>
+  <section ms-visible="!isShowLoading">
+    <img ms-src="imgsrc" alt="">
+    <b ms-text="detail"></b>
+  </section>
+  <div class="yo-loading" ms-visible="isShowLoading">
+      <div class="inner"><i class="yo-ico"></i><span>加载中...</span></div>
+  </div>
+</div>

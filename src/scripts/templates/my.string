@@ -1,0 +1,23 @@
+<!-- <div class="yo-dialog yo-dialog-a">
+    <header class="hd">
+        <h2 class="title">标题</h2>
+    </header>
+    <div class="bd"> -->
+      <div class="m-lifenav" spa-widget="scroll" data-scroll-id="lifenav-scroll">
+        <ul>
+          <li>nav01</li>
+          <li>nav02</li>
+          <li>nav03</li>
+          <li>nav04</li>
+          <li>nav05</li>
+          <li>nav06</li>
+          <li>nav07</li>
+          <li>nav08</li>
+        </ul>
+      </div>
+    <!-- </div>
+    <footer class="ft">
+        <button action-type="close" class="yo-btn yo-btn-dialog yo-btn-l">取消</button>
+        <button class="yo-btn yo-btn-dialog yo-btn-l">确定</button>
+    </footer>
+</div> -->
